@@ -1,0 +1,109 @@
+/* body{
+    font-size: 1px
+} */
+.dropdown-menu {
+    /* left: -60% !important; */
+    padding: none !important;
+}
+.dropdown{
+    margin-top: 10px;
+}
+
+#orange .main-active{
+    background-color: #e75412;
+    color: #f4f4f4
+}
+#orange .list-group-item.active {
+    color: #f4f4f4 !important;
+    background-color: #e75412 !important;
+    border-color: #e75412 !important;
+}
+
+#black .main-active{
+    background-color: #333333;
+    color:#ffff;
+}
+#black .list-group-item.active {
+    color: #fff !important;
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+}
+
+#yellow .main-active{
+    background-color: #f9e12a;
+    color:#061f25;
+}
+#yellow .list-group-item.active {
+    color: #061f25 !important;
+    background-color: #f9e12a !important;
+    border-color: #f9e12a !important;
+}
+
+#blue .main-active{
+    background-color: #2a4bf9;
+    color:#dae6e8;
+}
+#blue .list-group-item.active {
+    color: #dae6e8 !important;
+    background-color: #2a4bf9 !important;
+    border-color: #2a4bf9 !important;
+}
+
+#purple .main-active{
+    background-color: #a335ab;
+    color:#ecf0f1;
+}
+#purple .list-group-item.active {
+    color: #ecf0f1 !important;
+    background-color: #a335ab !important;
+    border-color: #a335ab !important;
+}
+
+#rose  .main-active{
+    background-color: #da0e6c;
+    color:#ecf1ec;
+}
+#rose  .list-group-item.active {
+    color: #ecf1ec !important;
+    background-color: #da0e6c !important;
+    border-color: #da0e6c !important;
+}
+
+#green .main-active{
+    background-color:#36f92a;
+    color:#283b40;
+}
+
+#green .list-group-item.active {
+    color: #283b40 !important;
+    background-color: #36f92a !important;
+    border-color: #36f92a !important;
+}
+
+#chocolate  .main-active{
+    background-color:#736357;
+    color:#ecf0f1;
+}
+#chocolate  .list-group-item.active {
+    color: #ecf0f1 !important;
+    background-color: #736357 !important;
+    border-color: #736357 !important;
+}
+
+
+/* CHANGE COLOR BACKGROUND */
+/* #black {
+  background-color: #333;
+  color: #fff;
+} */
+
+/* #yellow {
+  background-color: #ffc107;
+  color: #343a40;
+} */
+
+#green {
+  background-color: #28a745;
+  color: #343a40;
+}
+

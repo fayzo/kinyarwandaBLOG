@@ -1,0 +1,48 @@
+.form-div {
+    /* margin-top: 100px; */
+    border: 1px solid #e0e0e0;
+    height: 197px;
+    width: 100%;
+    overflow: hidden;
+    /* overflow-y: auto */
+}
+.form-header{
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    /* padding-right: 100%; */
+}
+
+#profileDisplay {
+    display: block;
+    height: 197px;
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+
+.img-placeholder {
+    width: 100%;
+    color: white;
+    height: 100%;
+    background: black;
+    opacity: .7;
+    height: 197px;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.img-placeholder h4 {
+    margin-top: 40%;
+    color: white;
+}
+
+.img-div:hover .img-placeholder {
+    display: block;
+    cursor: pointer;
+}
